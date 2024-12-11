@@ -1,0 +1,137 @@
+@import "./global.css";
+/* main hero */
+.hero {
+  padding-top: 56px;
+  color: #fff;
+  padding-bottom: 250px;
+  background-image: url(../images/bg-left.svg), url(../images/bg-right.svg);
+  background-repeat: no-repeat;
+  background-position: left -100px top 50px, right 165px bottom -100px;
+}
+
+.hero-container {
+  display: flex;
+}
+.hero-title {
+  font-size: 100px;
+  line-height: 100px;
+}
+.hero-divider {
+  margin-bottom: 79px;
+  justify-content: space-between;
+}
+
+.hero-discription {
+  width: 100%;
+  max-width: 445px;
+  width: 535px;
+}
+
+/* MAIN HERO END */
+/* Features start */
+.features {
+  background-color: #012f34;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  color: #fff;
+  background-image: url("../images/bg-pattern-home-3.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right -100px;
+}
+.features-container {
+  display: flex;
+  justify-content: space-between;
+}
+.features-content {
+  width: 100%;
+  max-width: 445px;
+}
+.features-divider {
+  margin-bottom: 54px;
+}
+.features-title {
+  font-size: 48px;
+  line-height: 48px;
+}
+.features-list-wrapper {
+  width: 100%;
+  max-width: 540px;
+  margin-top: 54px;
+}
+.features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.features-item {
+  display: flex;
+  gap: 23px;
+}
+
+.features-item-title {
+  margin-bottom: 16px;
+  font-size: 18px;
+  line-height: 28px;
+}
+.features-iten-description {
+  opacity: 80%;
+}
+
+/* features end */
+/* STORIES START */
+.stories {
+  padding-top: 149px;
+  padding-bottom: 140px;
+  background-image: url("../images/bg-pattern-home-4-about-3.svg"),
+    url("../images/bg-pattern-home-5.svg");
+  background-repeat: no-repeat;
+  background-position: top left, right bottom;
+  color: #fff;
+}
+.stories-container {
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+}
+
+.stories-title {
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  width: 100%;
+  max-width: 932px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stories-list {
+  display: flex;
+  text-align: center;
+}
+.stories-item {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/icon-quotes.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 36px;
+}
+.stories-description {
+  margin-bottom: 24px;
+}
+.stories-item-content {
+  margin-bottom: 32px;
+}
+.stories-owner-name {
+  font-size: 18px;
+}
+.stories-owner-job {
+  font-weight: 500;
+  font-size: 13px;
+}
+.stories-owner-image {
+  align-self: center;
+  border-radius: 50%;
+  border: 2px solid #c4fffe;
+}
+/* STORIES END */
